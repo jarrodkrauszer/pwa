@@ -23,8 +23,8 @@ module.exports = () => {
         template: './index.html',
       }),
       new WebpackPwaManifest({
-        name: 'My Progressive Web App',
-        short_name: 'MyPWA',
+        name: 'Text Editor',
+        short_name: 'TE',
         description: 'My awesome Progressive Web App!',
         background_color: '#272822',
         publicPath: '/',
