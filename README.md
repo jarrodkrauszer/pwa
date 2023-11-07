@@ -16,4 +16,6 @@ This app was deployed to heroku and you can run the app by selecting the link be
 
 Link to my github profile: [jarrodkrauszer](https://github.com/jarrodkrauszer)
 
-Here is a link to the project: [Progressive Web App](https://github.com/jarrodkrauszer/pwa)
+Here is a link to the project repo: [Progressive Web App](https://github.com/jarrodkrauszer/pwa)
+
+Here is a link to the application to run: [Progressive Web App](https://pwa-jk-acf810acdcdf.herokuapp.com/)
