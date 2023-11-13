@@ -29,8 +29,8 @@ module.exports = () => {
         short_name: 'TE',
         description: 'My awesome Progressive Web App!',
         background_color: '#272822',
-        publicPath: '/',
-        start_url: '/',
+        publicPath: './',
+        start_url: './',
         inject: true,
         fingerprints: false,
         crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
