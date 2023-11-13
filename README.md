@@ -6,7 +6,9 @@ With this assignment we were tasked to finish the started code given to us to cr
 
 ## Installation
 
-npm i to install all the neccessary node modules.
+npm i to install all the necessary node modules.
+
+![screenshot.png](assets/images/screenshot.png)
 
 ## Usage
 
