@@ -59,6 +59,8 @@ export const getDb = async () => {
   if (result) {
     return result?.value;  //Shorthand ternary
   }
+
+  return;
 };
 
 initdb();
