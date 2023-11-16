@@ -35,7 +35,9 @@ registerRoute(
       // JavaScript
       request.destination === 'script' ||
       // Worker
-      request.destination === 'worker'
+      request.destination === 'worker' ||
+      // icon
+      request.destination === 'icon'
     );
   },
   new StaleWhileRevalidate({

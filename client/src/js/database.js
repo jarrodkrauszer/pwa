@@ -56,7 +56,9 @@ export const getDb = async () => {
   // Get confirmation of the request.
   const result = await request;
   console.log('result.value', result.value);
-  return result?.value;  //Shorthand ternary
+  if (result) {
+    return result?.value;  //Shorthand ternary
+  }
 };
 
 initdb();
