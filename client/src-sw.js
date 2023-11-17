@@ -28,7 +28,7 @@ registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
 registerRoute(
   ({ request }) => {
-    console.log(request);
+
     return (
       // CSS
       request.destination === 'style' ||
@@ -36,7 +36,6 @@ registerRoute(
       request.destination === 'script' ||
       // Worker
       request.destination === 'worker' ||
-      // icon
       request.destination === 'icon'
     );
   },
